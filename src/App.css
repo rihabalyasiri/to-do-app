@@ -1,22 +1,98 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
+.app{
+  width:50%;
+  margin: 0 auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  width:100%;
+  height: 10vh;
+  background: #90C4D5;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #09d3ac;
+.heading {
+  margin-left: 30px;
+}
+
+.fa-check-square {
+  font-size: 30px;
+  color: rgb(190, 127, 10);
+}
+
+.do-board {
+  width:100%;
+
+}
+
+.do-block {
+  width:100%;
+  height: 5vh;
+  background: #E3F0EF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.do-text {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+
+.fa-trash-alt {
+  margin-right: 30px;
+  color: rgb(194, 129, 10);
+  cursor: pointer;
+}
+
+.check-do {
+  margin-left: 40px;
+}
+
+.add-do-block {
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+}
+
+.add-do-text {
+  padding: 10px 40px;
+  font-size: 20px;
+  outline: none;
+  border: 1px solid rgb(40, 135, 243);
+}
+
+.submit-btn {
+  background: rgb(37, 50, 160);
+  color:#fff;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin-left: 10px;
+}
+
+.new-style {
+  text-decoration: line-through;
+}
+
+.delete {
+  display: none;
+}
+
+.red {
+  color:red;
+}
+
+.green {
+  color:green;
 }
